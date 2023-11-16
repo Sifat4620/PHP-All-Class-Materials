@@ -52,7 +52,7 @@
                               <td><?php echo $email?>  </td>
                               <td><?php echo $address?></td>
                               <th scope="col">
-                              <a href="update.php&uid=<?php echo $id?>"><button type="submit" class="btn btn-primary" name="edit">Update</button></a>
+                              <a href="update.php?uid=<?php echo $id?>"><button type="submit" class="btn btn-primary" name="edit">Update</button></a>
                               <a href=""><button type="submit" class="btn btn-danger" name="delate">Delate</button></a>
                               </th>
                               </tr>
